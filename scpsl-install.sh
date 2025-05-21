@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "###############################################################"
-echo "#                       Neon Community                        #"
+echo "#                  Neon Community - ScpSL                     #"
 echo "###############################################################"
 
 # Install dependencies
