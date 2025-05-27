@@ -16,7 +16,7 @@ cd /mnt/server/.bin/SteamCMD
 curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxf -
 
 # Download SCP:Secret Laboratory Dedicated Server (with reduced output)
-./steamcmd.sh +force_install_dir /mnt/server/.bin/SCPSLDS +login anonymous +app_update 996560 -beta "$BETA_NAME" $( [ "$BETA_PASSWORD" != "none" ] && echo "-betapassword $BETA_PASSWORD" ) validate +quit
+./steamcmd.sh +force_install_dir /mnt/server/ +login anonymous +app_update 996560 -beta "$BETA_NAME" $( [ "$BETA_PASSWORD" != "none" ] && echo "-betapassword $BETA_PASSWORD" ) validate +quit
 
 # Remove installation files and temporary files that might have been created
 rm -rf /mnt/server/.bin/SteamCMD
