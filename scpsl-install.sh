@@ -21,7 +21,7 @@ curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.g
 # Remove installation files and temporary files that might have been created
 rm -rf /mnt/server/.bin/SteamCMD
 rm -rf /tmp/dumps
-rm -f /root/Steam*
+rm -rf /root/Steam
 
 echo "###############################################################"
 echo "#                   Installation completed!                   #"
